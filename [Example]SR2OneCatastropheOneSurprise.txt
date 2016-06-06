@@ -1,0 +1,339 @@
+Python 2.7.5 (default, May 15 2013, 22:43:36) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+ Welcome to the Survival and Surprises CMPT 120 Games!
+======================================================
+
+
+Do you want to draw the board? (y/n): y
+
+
+Do you want to play? (y/n): y
+
+Type the name of board file including '.txt' or type d for default: d
+
+Showing board... just created
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      4      2      2
+4      10     3      1
+5      10     1      1
+6      10     3      3
+7      10     2      3
+
+Which position shall PythonShine be (0..7), 0
+
+Data for player
+
+Name? XRavenblade
+
+Initial life points (10..50)? 50
+
+Maximum turns this game? (1..10) 10
+
+Allow that catastrophes happen? (y/n): y
+
+Allow that surprises happen? (y/n): y
+
+Showing board... about to do turn num:1
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0 <---Player
+1      10     0      1
+2      10     1      3
+3      4      2      2
+4      10     3      1
+5      10     1      1
+6      10     3      3
+7      10     2      3
+
+Showing Player... about to do turn num:1
+
+The player XRavenblade
+currently has: 50 life points
+has no sword
+has 0 diamonds
+is in the position: 0
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 5
+ the previous position was... 0
+ and the next position is... 5
+
+
+yey!!... the player collected 3 diamonds
+Yey!!... the player exchanged to a better sword
+The player's new sword is of type: 1
+Oh well... the player tied the fight and lost 25 life points
+The Player now has 25 life points
+
+Showing board... about to do turn num:2
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      4      2      2
+4      10     3      1
+5      7      0      1 <---Player
+6      10     3      3
+7      10     2      3
+
+Showing Player... about to do turn num:2
+
+The player XRavenblade
+currently has: 25 life points
+has a sword of material: 1
+has 3 diamonds
+is in the position: 5
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 1
+ the previous position was... 5
+ and the next position is... 6
+
+
+yey!!... the player collected 3 diamonds
+Yey!!... the player exchanged to a better sword
+The player's new sword is of type: 3
+Oh well... the player tied the fight and lost 1 life points
+The Player now has 24 life points
+
+Showing board... about to do turn num:3
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      4      2      2
+4      10     3      1
+5      7      0      1
+6      7      1      3 <---Player
+7      10     2      3
+
+Showing Player... about to do turn num:3
+
+The player XRavenblade
+currently has: 24 life points
+has a sword of material: 3
+has 6 diamonds
+is in the position: 6
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 5
+ the previous position was... 6
+ and the next position is... 3
+
+
+yey!!... the player collected 1 diamonds
+Great! the player won the fight and won 17 life points
+The Player now has 41 life points
+
+Showing board... about to do turn num:4
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      3      2      2 <---Player
+4      10     3      1
+5      7      0      1
+6      7      1      3
+7      10     2      3
+
+Showing Player... about to do turn num:4
+
+The player XRavenblade
+currently has: 41 life points
+has a sword of material: 3
+has 7 diamonds
+is in the position: 3
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 3
+ the previous position was... 3
+ and the next position is... 6
+
+
+yey!!... the player collected 2 diamonds
+Oh well... the player tied the fight and lost 7 life points
+The Player now has 34 life points
+
+Showing board... about to do turn num:5
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      3      2      2
+4      10     3      1
+5      7      0      1
+6      5      1      3 <---Player
+7      10     2      3
+
+Showing Player... about to do turn num:5
+
+The player XRavenblade
+currently has: 34 life points
+has a sword of material: 3
+has 9 diamonds
+is in the position: 6
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 2
+ the previous position was... 6
+ and the next position is... 0
+
+
+In biome #0 no action takes place...
+
+Showing board... about to do turn num:6
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0 <---Player
+1      10     0      1
+2      10     1      3
+3      3      2      2
+4      10     3      1
+5      7      0      1
+6      5      1      3
+7      10     2      3
+
+Showing Player... about to do turn num:6
+
+The player XRavenblade
+currently has: 34 life points
+has a sword of material: 3
+has 9 diamonds
+is in the position: 0
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 5
+ the previous position was... 0
+ and the next position is... 5
+
+
+yey!!... the player collected 2 diamonds
+Great! the player won the fight and won 31 life points
+The Player now has 65 life points
+
+Oh oh! A catastrohe occured in biome # 6
+and the board shrunk
+but the player was not there, so the player is safe
+
+Showing board... about to do turn num:7
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      3      2      2
+4      10     3      1
+5      5      0      1 <---Player
+6      10     2      3
+
+Showing Player... about to do turn num:7
+
+The player XRavenblade
+currently has: 65 life points
+has a sword of material: 3
+has 11 diamonds
+is in the position: 5
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 1
+ the previous position was... 5
+ and the next position is... 6
+
+
+yey!!... the player collected 3 diamonds
+Oh well... the player tied the fight and lost 7 life points
+The Player now has 58 life points
+
+ Oooooh! A surprise is happening up to biome # 2
+ the board will have more diamonds for the next turn!
+
+Showing board... about to do turn num:8
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      20     0      1
+2      10     1      3
+3      3      2      2
+4      10     3      1
+5      5      0      1
+6      7      2      3 <---Player
+
+Showing Player... about to do turn num:8
+
+The player XRavenblade
+currently has: 58 life points
+has a sword of material: 3
+has 14 diamonds
+is in the position: 6
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): u
+ which biome should the player go? (0..6): 1
+
+Amazing! the player is in PythonShine and won the game!
+
+ RESULTS END OF GAME
+
+The game number 1 just took place
+The game ended because the player is in PythonShine and won the game!
+
+Showing board... end of game
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      20     0      1 <---Player
+2      10     1      3
+3      3      2      2
+4      10     3      1
+5      5      0      1
+6      7      2      3
+
+Showing Player... end of game
+
+The player XRavenblade
+currently has: 9999 life points
+has a sword of material: 3
+has 9999 diamonds
+is in the position: 1
+So... he is... Very alive!!!
+and he reached PythonShine, so he won!!!
+
+1 catastrophes took place, eliminating a biome each
+
+1 surprises took place, adding diamonds to the board
+
+Do you want to play again? (y/n): 

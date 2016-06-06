@@ -1,0 +1,101 @@
+Python 2.7.5 (default, May 15 2013, 22:43:36) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+ Welcome to the Survival and Surprises CMPT 120 Games!
+======================================================
+
+
+Do you want to draw the board? (y/n): y
+
+
+Do you want to play? (y/n): y
+
+Type the name of board file including '.txt' or type d for default: d
+
+Showing board... just created
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      4      2      2
+4      10     3      1
+5      10     1      1
+6      10     3      3
+7      10     2      3
+
+Which position shall PythonShine be (0..7), 4
+
+Data for player
+
+Name? XRavenblade
+
+Initial life points (10..50)? 50
+
+Maximum turns this game? (1..10) 5
+
+Allow that catastrophes happen? (y/n): y
+
+Allow that surprises happen? (y/n): y
+
+Showing board... about to do turn num:1
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0 <---Player
+1      10     0      1
+2      10     1      3
+3      4      2      2
+4      10     3      1
+5      10     1      1
+6      10     3      3
+7      10     2      3
+
+Showing Player... about to do turn num:1
+
+The player XRavenblade
+currently has: 50 life points
+has no sword
+has 0 diamonds
+is in the position: 0
+So... he is... Very alive!!!
+
+Roll die, or user types next pos? (d/u): d
+
+ the die was... 4
+ the previous position was... 0
+ and the next position is... 4
+
+Amazing! the player is in PythonShine and won the game!
+
+ RESULTS END OF GAME
+
+The game number 1 just took place
+The game ended because the player is in PythonShine and won the game!
+
+Showing board... end of game
+
+ The board at this point contains...
+Biome# Diam   Sword  Enemy
+0      0      0      0
+1      10     0      1
+2      10     1      3
+3      4      2      2
+4      10     3      1 <---Player
+5      10     1      1
+6      10     3      3
+7      10     2      3
+
+Showing Player... end of game
+
+The player XRavenblade
+currently has: 9999 life points
+has no sword
+has 9999 diamonds
+is in the position: 4
+So... he is... Very alive!!!
+and he reached PythonShine, so he won!!!
+
+Do you want to play again? (y/n): 
